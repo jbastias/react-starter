@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import reactLogo from '../assets/react.svg';
 import bootstrapLogo from '../assets/bootstrap-logo.svg';
+import reactRouterLogo from '../assets/react-router-logo.svg';
+
 import './App.css';
 
 function App() {
@@ -15,6 +17,13 @@ function App() {
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://reactrouter.com" target="_blank">
+          <img
+            src={reactRouterLogo}
+            className="logo react-router"
+            alt="React Router logo"
+          />
+        </a>
         <a href="https://getbootstrap.com" target="_blank">
           <img
             src={bootstrapLogo}
@@ -23,7 +32,7 @@ function App() {
           />
         </a>
       </div>
-      <h1>Vite + React + Bootstrap</h1>
+      <h1>Vite + React + React Router + Bootstrap</h1>
       <div className="card">
         <button onClick={() => setCount(count => count + 1)}>
           count is {count}
@@ -33,7 +42,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the <span className="highlight">Vite</span>,{' '}
+        <span className="highlight">React</span>,{' '}
+        <span className="highlight">React Router</span> and{' '}
+        <span className="highlight">Bootstrap</span> logos to learn more
       </p>
     </div>
   );
