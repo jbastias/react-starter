@@ -1,0 +1,17 @@
+.go-home a:hover {
+  font-weight: bolder;
+}
+
+.info {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: left;
+}
+
+.highlight {
+  color: lightseagreen;
+  font-weight: bold;
+  font-size: larger;
+}

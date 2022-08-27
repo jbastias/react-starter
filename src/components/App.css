@@ -77,3 +77,11 @@
   font-weight: bold;
   font-size: larger;
 }
+
+.about-info {
+  margin: 20px;
+}
+
+.about-info a:hover {
+  font-weight: bolder;
+}

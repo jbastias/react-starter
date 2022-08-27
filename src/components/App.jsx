@@ -4,6 +4,7 @@ import bootstrapLogo from '../assets/bootstrap-logo.svg';
 import reactRouterLogo from '../assets/react-router-logo.svg';
 
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,6 +32,9 @@ function App() {
             alt="Bootstrap logo"
           />
         </a>
+      </div>
+      <div className="about-info">
+        Go to the <Link to="/about">About</Link> page to get more info
       </div>
       <h1>Vite + React + React Router + Bootstrap</h1>
       <div className="main-card">
